@@ -7,8 +7,6 @@ import './css/Products.css'
 const Products = () => {
   const { products } = useContext(DataContext)
 
-  console.log(products)
-
   return (
     <div id='product'>
       {products.map((prod) => (
